@@ -10,7 +10,7 @@ public class DbApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = SpringApplication.run(DbApplication.class, args);
-		 CustomerRepository customerRepository = applicationContext.getBean(CustomerRepository.class);
+
 
 	}
 }
